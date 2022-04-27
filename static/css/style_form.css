@@ -1,0 +1,84 @@
+div{
+    background-color:#012a4a;
+    width:100%;
+    height:100px;
+    border-radius: 10px 10px 50px 5px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 3px 17px 7px rgba(0,0,0,0);
+    box-shadow: 0px 10px 13px -7px #000000, 1px 3px 17px 7px rgba(0,0,0,0);
+}
+h1{
+    width:100%;
+    height:80px;
+    padding: 2px 0px 0 42.4%;
+    margin :1px;
+    display:block;
+    text-align:center;
+    position:relative;
+
+    left:-700px;
+    color:#2c7da0;
+    font-family: 'Kiwi Maru', serif;
+    font-size:80px;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+}
+form{
+    position:relative;
+    top:150px;
+}
+.title{
+    font-size:30px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.description{
+    font-size:30px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.image{
+    font-size:30px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.phone{
+    font-size:30px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.web_url{
+    font-size:30px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.button_save {
+    background-color: #89c2d9;
+    width: 300px;
+    height: 80px;
+    font-size: 40px;
+    border-radius: 20px;
+    color: #000000;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+
+input[type=text]{
+    border: #2c7da0;
+    width:400px;
+    border-radius: 5px;
+    border-bottom: 2px solid #89c2d9;
+}
+
+footer{
+    background-color: #61a5c2;
+    border-radius: 5px 50px 10px 10px;
+    text-align: justify;
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -50px -48px 0px -30px rgba(0,0,0,0);
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -50px -48px 0px -30px rgba(0,0,0,0);
+    text-shadow: 0.5px 0.5px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+    position:relative;
+    top:300px;
+}
+footer h3{
+    position: relative;
+    left: 79%;
+}
+footer h2{
+    position: relative;
+    left: 79%;
+}

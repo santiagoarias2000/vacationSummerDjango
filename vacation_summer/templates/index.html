@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Summer Vacation</title>
+    <link rel="stylesheet" href="{% static 'css/style_index.css'%}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    <nav>
+        <h3 class="nav-subtitle">Evento</h3>
+        <h1 class="nav-titel">Próximas vacaciones de verano</h1>
+        <form action="{% url 'form_save' %}">
+            <input type="submit" class="button_form" value="+">
+        </form>
+    </nav>
+    <section align="center">
+        {% for site in site_vacation %}
+        <div class="one-card">
+            <div class='card--img'>
+                <img src="{{site.image}}">
+            </div>
+            <h1>{{site.title}}.</h1>
+            <br>
+            <h2>{{site.description}}</h2>
+            <br>
+            <h3>Contacto: {{site.phone}}</h3>
+            <br>
+            <br>
+            <a href="{{site.web_url}}">{{site.web_url}}</a>
+            <form action="{% url 'delete_data' site.id%}" method="post">
+                <input type="submit" class="delete" value="Clean card">
+            </form>
+        </div>
+        {% endfor %}
+    </section>
+    <footer>
+        <h2>Todos los derechos reservados</h2>
+        <h3>Santiago Andres Arias Mancilla</h3>
+        <h3>Tel: 3164440202</h3>
+    </footer>
+
+</body>
+
+</html>

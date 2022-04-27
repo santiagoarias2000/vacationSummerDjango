@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="{% static 'css/style_form.css'%}">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <h1>Crear Un Sitio</h1>
+    </div>
+    <section align="center">
+        <form action="{%url 'save_site'%}" method="post">
+            <label class="title">Titulo: </label>
+            <br>
+            <input type="text" name="title" placeholder="Titulo:" class="title_input">
+            <br>
+            <label class="description">Descripcion: </label>
+            <br>
+            <input type="text" name="description" placeholder="Descripcion:" class="description_input">
+            <br>
+            <label class="image">Imagen: </label>
+            <br>
+            <input type="text" name="image" placeholder="Imagen:" class="image_input">
+            <br>
+            <label class="phone">Telefono: </label>
+            <br>
+            <input type="text" name="phone" placeholder="Telefono:" class="phone_input">
+            <br>
+            <label class="web_url">Sitio web: </label>
+            <br>
+            <input type="text" name="web_url" placeholder="Sitio web" class="web_url_input">
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="Guardar" class="button_save">
+        </form>
+    </section>
+    <footer>
+        <h2>Todos los derechos reservados</h2>
+        <h3>Santiago Andres Arias Mancilla</h3>
+        <h3>Tel: 3164440202</h3>
+    </footer>
+</body>
+
+</html>

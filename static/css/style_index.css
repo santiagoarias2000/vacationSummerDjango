@@ -1,0 +1,147 @@
+*{
+    margin: 1px;
+    padding: 1px;
+}
+
+nav{
+    background-image: url("https://www.estrategiaynegocios.net/csp/mediapool/sites/dt.common.streams.StreamServer.cls?STREAMOID=Qj7HQJ3kc8wM_x_FCuVMhc$daE2N3K4ZzOUsqbU5sYuTdH5Gr8O4qeQBgewHBAlX6FB40xiOfUoExWL3M40tfzssyZqpeG_J0TFo7ZhRaDiHC9oxmioMlYVJD0A$3RbIiibgT65kY_CSDiCiUzvHvODrHApbd6ry6YGl5GGOZrs-&CONTENTTYPE=image/jpeg");
+    width:100%;
+    height:250px;
+    border-radius: 10px 10px 50px 5px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 1px 3px 17px 7px rgba(0,0,0,0);
+    box-shadow: 0px 10px 13px -7px #000000, 1px 3px 17px 7px rgba(0,0,0,0);
+}
+
+.nav-subtitle{
+    width:190px;
+    height:80px;
+    padding: 38px 0px 0 45%;
+    margin :2px;
+    display:block;
+    text-align:center;
+    font-family: 'Kiwi Maru', serif;
+    font-size:50px;
+    position:relative;
+    left:-50px;
+    color:#89c2d9;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+}
+.nav-titel{
+    width:100%;
+    height:80px;
+    padding: 2px 0px 0 42.4%;
+    margin :1px;
+    display:block;
+    text-align:center;
+    position:relative;
+    bottom:50px;
+    left:-620px;
+    color:#03045e;
+    font-family: 'Kiwi Maru', serif;
+    font-size:80px;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+}
+.nav-titel:hover{
+    color:#012a4a;
+    transition: all 1s;
+
+}
+form{
+    text-align:center;
+    padding: 20px 0 0 90%;
+    margin :2px;
+}
+.button_form{
+    width:50px;
+    height:50px;
+    color:white;
+    font-size:40px;
+    background-color:black;
+    border-radius: 50%;
+}
+.button_form:hover{
+    width:80px;
+    height:80px;
+    color:white;
+    font-size:70px;
+    background-color:black;
+    border-radius: 50%;
+    transition: all 2s;
+}
+
+img{
+    margin:0;
+    padding:0;
+    width:550px;
+    height:350px;
+
+}
+
+.one-card{
+    margin: 35px;
+    width:550px;
+    height:750px;
+    display:inline-block;
+    border: 5px inset rgba(28,110,164,0.33);
+    -webkit-box-shadow: 1px 3px 17px 7px rgba(0,0,0,0.62);
+    box-shadow: 1px 3px 17px 7px rgba(0,0,0,0.62);
+    border-radius: 10px 10px 50px 5px;
+}
+.one-card h1{
+    color: #013a63;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: justify;
+}
+.one-card h2{
+    color: #00b4d8 ;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: justify;
+}
+.one-card h3{
+    color: #468faf;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: justify;
+}
+.one-card a{
+    color: #468faf;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: justify;
+
+}
+.one-card a:link{
+    color:darkblue;
+}
+footer{
+    background-color: #61a5c2;
+    border-radius: 5px 50px 10px 10px;
+    text-align: justify;
+    -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -50px -48px 0px -30px rgba(0,0,0,0);
+    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, -50px -48px 0px -30px rgba(0,0,0,0);
+    text-shadow: 0.5px 0.5px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15);
+}
+footer h3{
+    position: relative;
+    left: 79%;
+}
+footer h2{
+    position: relative;
+    left: 79%;
+}
+
+.delete{
+    border-radius: 5px;
+    width: 70px;
+    height: 40px;
+    position: relative;
+    bottom: 50px;
+    right: 40px;
+    background-color:#a9d6e5;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.delete:hover{
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0.56);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0.56);
+    transition: all 0.5s;
+   }
